@@ -22,7 +22,9 @@ npm install --save-dev eslint-plugin-sentences
         "sentences"
     ],
     "rules": {
-        "sentences/no-sentences": [`error`, ['prohibit sentence']]
+        "sentences/no-sentences": [`error`, [
+            { sentence: 'prohibit sentence', message: 'custom message to show' }
+        ]]
     }
 }
 ```
