@@ -1,0 +1,30 @@
+{
+	"name": "eslint-plugin-sentences",
+	"version": "1.0.0",
+	"description": "Report prohibit sentences",
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin",
+		"import",
+		"unused",
+		"modules"
+	],
+	"author": "Vaclav Prochazka",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"peerDependencies": {
+		"eslint": ">8.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.56.0",
+		"jest": "^27.2.5"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"license": "MIT",
+	"repository": "https://github.com/VasekProchazka/eslint-plugin-sentences"
+}
